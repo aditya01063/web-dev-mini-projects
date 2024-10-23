@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: border-box;
+}
+
+
+.material-symbols-outlined {
+    width: 25%;
+    background-color: rgb(110, 107, 107);
+    color: aliceblue;
+    text-align: center ;
+    line-height: 1.5;
+    font-size: 30px;
+    transition: all 0.3s ease;
+
+    
+
+}
+.material-symbols-outlined:hover {
+    background-color: rgb(108, 163, 108);
+}
+
+
+
