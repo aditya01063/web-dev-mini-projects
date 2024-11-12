@@ -1,0 +1,29 @@
+*body {
+    margin: 0;
+    padding: 0;
+    
+}
+.Accordion {
+    background-color: grey;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+
+
+}
+.active, .Accordion:hover{
+    background-color: #922a2a;
+}
+.panel {
+    padding: 0 20px;
+    background-color: rgb(172, 163, 163);
+    display: none;
+    overflow: hidden;
+    /* transition: max-height 0.2s ease-out; */
+    
+}
