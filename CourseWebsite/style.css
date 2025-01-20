@@ -22,6 +22,7 @@ body {
 #img2 {
   /* height: 240px; */
   width: 100%;
+  border-radius: 10px;
   /* max-width: 400px; */
   object-fit: cover;
   /* padding: 5% auto 5% auto; */
