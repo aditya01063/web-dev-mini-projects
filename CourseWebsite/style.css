@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#logo {
+  height: 40px;
+  width: 80px;
+
+  vertical-align: bottom;
+}
+
+#banner {
+  width: 100%;
+  height: 500px;
+  /* height: 40%; */
+  /* max-width: 1000px; */
+  object-fit: cover;
+}
+#img2 {
+  /* height: 240px; */
+  width: 100%;
+  /* max-width: 400px; */
+  object-fit: cover;
+  /* padding: 5% auto 5% auto; */
+  /* justify-content: center;
+  align-items: center; */
+}
+.about {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.section1 {
+  width: 50%;
+  padding-left: 5%;
+  padding-right: 5%;
+  justify-content: center;
+}
+.section1 p {
+  margin-top: 0;
+}
+.section1 h2 {
+  margin-bottom: 5px;
+}
+.section2 {
+  width: 50%;
+}
+.heading {
+  color: rgb(26, 26, 32);
+  text-align: center;
+}
+.jobs {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.job-role {
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+.apply {
+  float: right;
+}
+a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.location {
+  color: grey;
+  margin-top: 0;
+}
+footer {
+  background-color: beige;
+  margin-top: 32px;
+  text-align: center;
+  padding-top: 15px;
+}
+#footer-link {
+  list-style: none;
+}
+#footer-link li {
+  display: inline;
+  margin: 0 32px;
+}
+
+#copywrite {
+  color: grey;
+  text-align: center;
+}
