@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jovian</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    
   </head>
   <body>
     <nav>
@@ -66,7 +73,111 @@
         <p class="location">Lorem ipsum dolor sit.</p>
       </div>
     </div>
+    <table id="jobs-table">
+      <tr class="table-heading-row">
+        <th rowspan="2">Job title</th>
+        <th colspan="2">Location</th>
+        <th rowspan="2">salary</th>
+        <th rowspan="2">posted on</th>
+      </tr>
+      <tr class="table-heading-row">
+        <th>city</th>
+        <th>contry</th>
+      </tr>
+      <tr class="table-data-row">
+        <td>Fronted Developer</td>
+        <td>Begaluru</td>
+        <td>India</td>
+        <td>120000</td>
+        <td>Mar 3 2025</td>
+      </tr>
+      <tr class="table-data-row">
+        <td>Fronted Developer</td>
+        <td>Begaluru</td>
+        <td>India</td>
+        <td>120000</td>
+        <td>Mar 3 2025</td>
+      </tr>
+      <tr class="table-data-row">
+        <td>Fronted Developer</td>
+        <td>Begaluru</td>
+        <td>India</td>
+        <td>120000</td>
+        <td>Mar 3 2025</td>
+      </tr>
+      <tr class="table-data-row">
+        <td>Fronted Developer</td>
+        <td>Begaluru</td>
+        <td>India</td>
+        <td>120000</td>
+        <td>Mar 3 2025</td>
+      </tr>
+      <tr class="table-data-row">
+        <td>Fronted Developer</td>
+        <td colspan="2">remote</td>
+        <td>120000</td>
+        <td>Mar 3 2025</td>
+      </tr>
+    </table>
+    <div class="form-container">
+      <h5>Personal Details</h5>
 
+      <form action="/submit" method="post">
+
+
+        <div class="form-group">
+          <label for="first-name">First Name</label><br>
+          <input type="text" name="first-name" id="first-name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="last-name">Last Name</label><br>
+          <input type="text" name="last-name" id="last-name" required /><br />
+        </div>
+
+        <div class="form-group">
+          <label>Gender :</label> <br />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="male" value="male" required />
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="female" value="female" required />
+          <label for="others">Others</label>
+          <input type="radio" name="gender" id="others" value="others" required/>
+        </div>
+        <div class="form-group">
+          <label for="email">Email: </label><br>
+          <input type="email" name="email" id="email" required/>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number : </label><br>
+          <input type="tel" name="phone" id="phone" required placeholder="+911234567891">
+        </div>
+        <div class="form-group">
+          <label for="dob">Date of Birth : </label><br>
+          <input type="date" name="dob" id="dob" required/><br />
+        </div>
+        <div class="form-group">
+          <label for="position">Position applied for: </label><br>
+          <select name="position" id="position" required>
+            <option value="">Select an option</option>
+            <option value="data-scientist">Data Scientist</option>
+            <option value="machine-learning">Machine Learning</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="resume">Upload Resume: </label><br>
+          <input type="file" name="resume" id="resume" required>
+        </div>
+        <div class="form-group">
+          <label for="address">Address: </label><br />
+          <textarea name="address" id="address" required></textarea>
+        </div>
+        <div class="form-group">
+        <button type="submit" name="submit" id="submit">Submit Application</button>
+        </div>
+
+      </form>
+    </div>
     <footer>
       <ul id="footer-link">
         <li><a href="#" target="_blank">Courses</a></li>
