@@ -34,8 +34,16 @@ h1{
   margin-right: 20px;
   text-align: center;
 }
+.todo-task input:hover {
+  border: 2px solid rgb(88, 88, 104);
+}
 .todo-task button {
   flex-grow: 1;
+  border-radius: 5px;
+}
+.todo-task button:hover {
+  background-color: #A9B5DF;
+  cursor: pointer;
 }
 .task-container {
   display: flex;
